@@ -1,5 +1,7 @@
 package com.example.android4a.presentation.main
 
+import android.app.ListActivity
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
@@ -19,6 +21,9 @@ class MainActivity : AppCompatActivity() {
             when(it){
                 is LoginSuccess -> {
                     //TODO Navigation deuxième activité
+
+                    val intent = Intent(this@MainActivity, newListActivity::class.java)
+                    startActivity(intent)
                 }
                 LoginError -> {
                     MaterialAlertDialogBuilder(this)
