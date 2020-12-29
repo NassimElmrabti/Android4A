@@ -53,4 +53,5 @@ class MainViewModel(private val createUserUseCase: CreateUserUseCase,
 
         }
     }
+
 }

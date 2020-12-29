@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
         mainViewModel.loginLiveData.observe(this, Observer {
             when(it){
                 is LoginSuccess -> {
-                    //TODO Navigation deuxième activité
 
                     val intent = Intent(this@MainActivity, newListActivity::class.java)
                     startActivity(intent)
