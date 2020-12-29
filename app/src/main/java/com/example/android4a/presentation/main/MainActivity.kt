@@ -24,14 +24,38 @@ class MainActivity : AppCompatActivity() {
                     MaterialAlertDialogBuilder(this)
                         .setTitle("Error")
                         .setMessage("Unknown Account")
-                        .setPositiveButton("Ok") { dialog, which -> dialog.dismiss()
-                        }
+                        .setPositiveButton("Ok") { dialog, which -> dialog.dismiss() }
                         .show()
                 }
             }
         })
+
+        mainViewModel.createAccountData.observe(this, Observer {
+            when(it){
+                is createAccountSuccess -> {
+                    MaterialAlertDialogBuilder(this)
+                        .setTitle("Success")
+                        .setMessage("Your account has been well created")
+                        .setPositiveButton("Nice!"){ dialog, which -> dialog.dismiss() }
+                        .show()
+                }
+                createAccountError -> {
+                    MaterialAlertDialogBuilder(this)
+                        .setTitle("Error")
+                        .setMessage("An account with the same email is already in the Database")
+                        .setPositiveButton("Ok") { dialog, which -> dialog.dismiss() }
+                        .show()
+                }
+            }
+        })
+
+
         login_button.setOnClickListener{
             mainViewModel.onClickedLogin(login_edit.text.toString().trim(), password_edit.text.toString())
+        }
+
+        create_account_button.setOnClickListener{
+            mainViewModel.onClickedCreateAccount(login_edit.text.toString().trim(), password_edit.text.toString())
         }
     }
 }
