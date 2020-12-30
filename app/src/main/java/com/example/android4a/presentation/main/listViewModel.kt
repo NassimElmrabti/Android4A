@@ -14,9 +14,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class listViewModel {
 
-    fun makeApiCall(){
+    val apiLiveData: MutableLiveData<ApiStatus> = MutableLiveData()
 
-        val apiLiveData: MutableLiveData<ApiStatus> = MutableLiveData()
+    fun makeApiCall(){
 
         var gsonBuilder = GsonBuilder()
             .setLenient()
@@ -35,7 +35,7 @@ class listViewModel {
             override fun onResponse(call: Call<RestFinalFantasyResponse>?, response: Response<RestFinalFantasyResponse>?) {
                 if (response != null) {
                     if(response.isSuccessful) {
-                        val FFList: List<FinalFantasy> = response!!.body().getResults()
+                        val FFList: MutableList<FinalFantasy> = response.body().getResults()
                         apiLiveData.value = ApiStatusSuccess(FFList)
                     }else{
                         apiLiveData.value = ApiStatusError

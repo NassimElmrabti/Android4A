@@ -4,13 +4,17 @@ package com.example.android4a.presentation.main
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.view.menu.MenuView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android4a.R
+import com.example.android4a.presentation.model.FinalFantasy
+import com.squareup.picasso.Picasso
 
 
 class listAdapter     // Provide a suitable constructor (depends on the kind of dataset)
-    (private val values: MutableList<String>) :
+    (private val values: MutableList<FinalFantasy>) :
     RecyclerView.Adapter<listAdapter.ViewHolder>() {
     inner class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
         // each data item is just a string in this case
@@ -23,16 +27,6 @@ class listAdapter     // Provide a suitable constructor (depends on the kind of 
             txtHeader = v.findViewById<TextView>(R.id.firstLine)
             txtFooter = v.findViewById<TextView>(R.id.secondLine)
         }
-    }
-
-    fun add(position: Int, item: String) {
-        values.add(position, item)
-        notifyItemInserted(position)
-    }
-
-    fun remove(position: Int) {
-        values.removeAt(position)
-        notifyItemRemoved(position)
     }
 
     // Create new views (invoked by the layout manager)
@@ -53,14 +47,17 @@ class listAdapter     // Provide a suitable constructor (depends on the kind of 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
-        val name = values[position]
-        holder.txtHeader.text = name
-        holder.txtHeader.setOnClickListener(View.OnClickListener() {
-            fun onClick(v: View?) {
-                remove(position)
-            }
-        })
-        holder.txtFooter.text = "Footer: $name"
+        val currentFinalFantasy : FinalFantasy = values[position]
+        val myImageView : ImageView = holder.itemView.findViewById(R.id.icon)
+
+        Picasso.get()
+            .load(currentFinalFantasy.ImageUrl)
+            .resize(200,200)
+            .centerCrop()
+            .into(myImageView)
+
+        holder.txtHeader.text = currentFinalFantasy.name
+        holder.txtFooter.text = currentFinalFantasy.NumeroDeTop
     }
 
     // Return the size of your dataset (invoked by the layout manager)

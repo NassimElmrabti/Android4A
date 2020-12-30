@@ -5,8 +5,8 @@ class FinalFantasy {
     val annee: String? = null
     val plateforme: String? = null
     val ventes: String? = null
-    val imageUrl: String? = null
-    val numeroDeTop: String? = null
-    val description: String? = null
+    val ImageUrl: String? = null
+    val NumeroDeTop: String? = null
+    val Description: String? = null
 
 }
