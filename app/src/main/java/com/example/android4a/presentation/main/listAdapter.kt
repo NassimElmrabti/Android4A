@@ -52,7 +52,7 @@ class listAdapter     // Provide a suitable constructor (depends on the kind of 
 
         Picasso.get()
             .load(currentFinalFantasy.ImageUrl)
-            .resize(350,225)
+            .resize(425,200)
             .centerCrop()
             .into(myImageView)
 
