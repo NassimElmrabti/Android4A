@@ -1,5 +1,69 @@
 {
   "results": [
+
+    {
+      "name": "Final Fantasy I",
+      "annee": 1987,
+      "plateforme": "NES",
+      "ventes": "0,84 Millions",
+      "ImageUrl": "https://static.wikia.nocookie.net/finalfantasy/images/c/c7/FFI_logo.png/revision/latest?cb=20160920111801",
+      "NumeroDeTop": "Top 35 des ventes",
+      "Description": "C’est en 1987 qu’une entreprise du nom de Square se tire de justesse de la faillite, avec la sortie d’un jeu qui deviendra plus tard une référence du genre. \n\n Voici donc venu le jour de « Final Fantasy » premier du nom."
+    },
+
+    {
+      "name": "Final Fantasy II",
+      "annee": 1988,
+      "plateforme": "NES",
+      "ventes": "1,77 Millions",
+      "ImageUrl": "https://media.senscritique.com/media/000016282450/source_big/Final_Fantasy_II.jpg",
+      "NumeroDeTop": "Top 22 des ventes",
+      "Description": "Le succès de Final Fantasy a offert à Square une grosse bouffée d'oxygène en les sauvant de la faillite. \n\n À ce moment-là, nul ne pouvait imaginer qu'en mettant en chantier un deuxième épisode, qui n'était pas une suite du premier Final Fantasy, Square venait de déclencher un engrenage qui deviendrait la saga de RPG japonais que tout le monde connaît de nos jours."
+    },
+
+    {
+      "name": "Final Fantasy III",
+      "annee": 1990,
+      "plateforme": "NES",
+      "ventes": "1,40 Millions",
+      "ImageUrl": "https://i.pinimg.com/originals/2d/67/ab/2d67ab952a6faf728d8de088c3a897d1.jpg",
+      "NumeroDeTop": "Top 25 des ventes",
+      "Description": "Vendu à plus d'un million d'exemplaire après sa sortie le 27 avril 1990, la première version de FF3 apporte un souffle de géant qui emporte Squaresoft vers le chemin de la gloire."
+    },
+
+    {
+      "name": "Final Fantasy IV",
+      "annee": 1991,
+      "plateforme": "Super Nintendo",
+      "ventes": "2,16 Millions",
+      "ImageUrl": "https://www.snes.fr/wp-content/uploads/2017/10/Final-Fantasy-IV.jpg",
+      "NumeroDeTop": "Top 19 des ventes",
+      "Description": "Chargé d'exécuter les ordres infâmes de son Roi, le Chevalier Noir Cecil décide délibérément de déroger à son devoir, mettant sa loyauté de côté, pour mettre un terme aux terribles desseins du régent. Incarnez Cecil et partez à la recherche des cristaux élémentaires sacrés accompagné d'un bataillon composé de 11 autres personnages."
+    },
+
+
+    {
+      "name": "Final Fantasy V",
+      "annee": 1992,
+      "plateforme": "Super Nintendo",
+      "ventes": "2,62 Millions",
+      "ImageUrl": "https://media.senscritique.com/media/000016698896/source_big/Final_Fantasy_V.jpg",
+      "NumeroDeTop": "Top 17 des ventes",
+      "Description": "Feu, Eau, Vent, Terre. Le pouvoir de ces cristaux assure la prospérité du monde. Cependant ce pouvoir n’est pas sans limite. Un jour, bientôt, le vent ralentira… Les océans se figeront… La terre tremblera et se fracassera… Pourtant nul ne semble se douter du péril qui menace le monde et le mystère des cristaux demeure dissimulé."
+    },
+
+
+    {
+      "name": "Final Fantasy VI",
+      "annee": 1994,
+      "plateforme": "Super Nintendo",
+      "ventes": "4 Millions",
+      "ImageUrl": "https://images-eu.ssl-images-amazon.com/images/I/71T6tU5qeuL.jpg",
+      "NumeroDeTop": "Top 9 des ventes",
+      "Description": "Final Fantasy VI marque le début de la saga Final Fantasy telle que nous la connaissons aujourd’hui. \n\n Avant lui, aucun RPG n’avait été aussi majestueux, aussi soigné artistiquement et graphiquement, aussi puissant émotionnellement. \n\n Encore aujourd’hui, on entend souvent dire que FFVI est peut-être le meilleur épisode jamais réalisé."
+    },
+
+
     {
       "name": "Final Fantasy VII",
       "annee": 1997,
@@ -18,42 +82,7 @@
       "NumeroDeTop": "Top 2 des ventes",
       "Description": "Huitième opus de la saga, Final Fantasy VIII ne se contente pas de suivre la voie de ses sept autres prédécesseurs.\n\n Jouer à ce jeu, c’est prendre le risque de ne plus pouvoir s’en passer. Pour la première fois depuis de nombreuses années, un jeu fait son apparition et pousse les limites de la PlayStation encore plus loin que pour Final Fantasy VII. \n\n En un mot, ce jeu est une réussite totale."
     },
-    {
-      "name": "Final Fantasy X",
-      "annee": 2001,
-      "plateforme": "PlayStation 2",
-      "ventes": "9,34 Millions",
-      "ImageUrl": "https://upload.wikimedia.org/wikipedia/fr/4/45/Final_Fantasy_X_Logo.png",
-      "NumeroDeTop": "Top 3 des ventes",
-      "Description": "Ce jeu, digne descendant d'une série qui n'avait alors plus rien à prouver, aura su faire attendre le fan inconditionnel.  \n\n Il s'agit  par ailleurs du tout premier Final Fantasy édité sur cette console nouvelle génération."
-    },
-    {
-      "name": "Final Fantasy XV",
-      "annee": 2016,
-      "plateforme": "PlayStation 4",
-      "ventes": "8,9 Millions",
-      "ImageUrl": "https://image.jeuxvideo.com/medias-sm/148163/1481630085-8987-jaquette-avant.jpg",
-      "NumeroDeTop": "Top 4 des ventes",
-      "Description": "Final Fantasy XV est une renaissance, un phénix renaissant des cendres de Final Fantasy Versus XIII portant en son sein une extraordinaire ambition. Il est également le roi dont la tâche est de reconquérir le cœur des joueurs, récupérer le trône du J-RPG et réunir l’ancienne et la nouvelle génération de joueurs."
-    },
-    {
-      "name": "Final Fantasy XIII",
-      "annee": 2009,
-      "plateforme": "Playstation 3, Xbox360",
-      "ventes": "7,7 Millions",
-      "ImageUrl": "https://store-images.s-microsoft.com/image/apps.47127.70278218077541314.94f10780-6761-4928-9d56-5a9f79d2cc27.17a04c3d-716b-4bed-87af-63c6b3048978?mode=scale&q=90&h=1080&w=1920",
-      "NumeroDeTop": "Top 5 des ventes",
-      "Description": "L'avenir se dévoile La lumineuse cité de Cocoon flotte au-dessus des nuages, à l'abri de Pulse, le monde déliquescent que les hommes ont abandonné plus de 1000 ans auparavant.\n\n Mais au cœur de ce paradis technologique, des forces se mettent en mouvement... des forces qui pourraient tout changer, pour toujours ! \n\n L'heure est venue de faire un premier pas dans l'aventure de Final Fantasy XIII. "
-    },
-    {
-      "name": "Final Fantasy XII",
-      "annee": 2006,
-      "plateforme": "PlayStation 2",
-      "ventes": "7,2 Millions",
-      "ImageUrl": "https://images-na.ssl-images-amazon.com/images/I/91GTNHp%2BjwL._AC_.jpg",
-      "NumeroDeTop": "Top 6 des ventes",
-      "Description": "Final Fantasy XII apporte de nombreuses nouveautés à la saga. Dernier épisode à voir le jour sur PlayStation 2, il en exploite les capacités au maximum. \n\n Cette nouveauté, qui transforme le RPG en un jeu à la troisième personne, ouvre la voie vers une profondeur de jeu encore jamais atteinte."
-    },
+
     {
       "name": "Final Fantasy IX",
       "annee": 2000,
@@ -63,6 +92,17 @@
       "NumeroDeTop": "Top 7 des ventes",
       "Description": "Final Fantasy IX marque certainement la fin d'une époque : celle de la Playstation. \n C'est en effet le dernier Final Fantasy à sortir sur cette console, mais certainement aussi le dernier très bon RPG sur cette console."
     },
+
+    {
+      "name": "Final Fantasy X",
+      "annee": 2001,
+      "plateforme": "PlayStation 2",
+      "ventes": "9,34 Millions",
+      "ImageUrl": "https://upload.wikimedia.org/wikipedia/fr/4/45/Final_Fantasy_X_Logo.png",
+      "NumeroDeTop": "Top 3 des ventes",
+      "Description": "Ce jeu, digne descendant d'une série qui n'avait alors plus rien à prouver, aura su faire attendre le fan inconditionnel.  \n\n Il s'agit  par ailleurs du tout premier Final Fantasy édité sur cette console nouvelle génération."
+    },
+
     {
       "name": "Final Fantasy X-2",
       "annee": 2003,
@@ -72,23 +112,68 @@
       "NumeroDeTop": "Top 8 des ventes",
       "Description": "Personne n'aurait imaginé que Square Enix créerait un jour une suite directe à l'un des épisodes de la saga de RPG la plus jouée au monde: Final Fantasy. \n\n Final Fantasy X deuxième du nom (FFX-2) créa la controverse parmis les fans de la série. Les avis sont très partagés entre l'une ou l'autre catégorie de joueurs"
     },
+
     {
-      "name": "Final Fantasy VI",
-      "annee": 1994,
-      "plateforme": "Super Nintendo",
-      "ventes": "4 Millions",
-      "ImageUrl": "https://images-eu.ssl-images-amazon.com/images/I/71T6tU5qeuL.jpg",
-      "NumeroDeTop": "Top 9 des ventes",
-      "Description": "Final Fantasy VI marque le début de la saga Final Fantasy telle que nous la connaissons aujourd’hui. \n\n Avant lui, aucun RPG n’avait été aussi majestueux, aussi soigné artistiquement et graphiquement, aussi puissant émotionnellement. \n\n Encore aujourd’hui, on entend souvent dire que FFVI est peut-être le meilleur épisode jamais réalisé."
+      "name": "Final Fantasy XII",
+      "annee": 2006,
+      "plateforme": "PlayStation 2",
+      "ventes": "7,2 Millions",
+      "ImageUrl": "https://images-na.ssl-images-amazon.com/images/I/91GTNHp%2BjwL._AC_.jpg",
+      "NumeroDeTop": "Top 6 des ventes",
+      "Description": "Final Fantasy XII apporte de nombreuses nouveautés à la saga. Dernier épisode à voir le jour sur PlayStation 2, il en exploite les capacités au maximum. \n\n Cette nouveauté, qui transforme le RPG en un jeu à la troisième personne, ouvre la voie vers une profondeur de jeu encore jamais atteinte."
     },
+
+    {
+      "name": "Final Fantasy XIII",
+      "annee": 2009,
+      "plateforme": "Playstation 3, Xbox360",
+      "ventes": "7,7 Millions",
+      "ImageUrl": "https://store-images.s-microsoft.com/image/apps.47127.70278218077541314.94f10780-6761-4928-9d56-5a9f79d2cc27.17a04c3d-716b-4bed-87af-63c6b3048978?mode=scale&q=90&h=1080&w=1920",
+      "NumeroDeTop": "Top 5 des ventes",
+      "Description": "L'avenir se dévoile La lumineuse cité de Cocoon flotte au-dessus des nuages, à l'abri de Pulse, le monde déliquescent que les hommes ont abandonné plus de 1000 ans auparavant.\n\n Mais au cœur de ce paradis technologique, des forces se mettent en mouvement... des forces qui pourraient tout changer, pour toujours ! \n\n L'heure est venue de faire un premier pas dans l'aventure de Final Fantasy XIII. "
+    },
+
     {
       "name": "Final Fantasy XIII-2",
       "annee": 2011,
-      "plateforme": "PlayStation 3",
+      "plateforme": "PlayStation 3, Xbox360",
       "ventes": "3,6 Millions",
       "ImageUrl": "https://s3.amazonaws.com/steamgriddb/grid/0817f5b4e989ffc649c10f58968a6201.png",
       "NumeroDeTop": "Top 10 des ventes",
       "Description": "L’arrivée d’une saga culte du RPG japonais dans le monde entier sur les consoles nouvelle génération était très attendue. \n\n Le succès a malheureusement été en demi-teinte, énormément de joueurs ayant critiqué de nombreux aspects du jeu. \n\n  Final Fantasy XIII-2 est une suite qui a pour mission de gommer les erreurs de son aîné."
+    },
+
+    {
+      "name": "Final Fantasy XIII Lightning Returns",
+      "annee": 2014,
+      "plateforme": "PlayStation 3, Xbox360",
+      "ventes": "1,2 Millions",
+      "ImageUrl": "https://cdn-cf.gamivo.com/image_cover.jpg?f=795&n=f50d6480-784d-11e7-8203-abacaa3272cd.jpg&h=3599307220aa0f696fda97f847b1f457",
+      "NumeroDeTop": "Top 27 des ventes",
+      "Description": "Alors que nous quittions nos héros en très mauvaise posture à la fin de Final Fantasy XIII-2, le DLC « Requiem de la Déesse » nous avait préparés à cette suite. Dans Lightning Returns, nous retrouvons Lightning, 700 ans après sa cristallisation, dans un monde qu'elle ne connait pas : Nova Chrysalia. Malheureusement, ce monde est à l'agonie et la fin du monde est annoncée pour dans 13 jours. Il reste donc très peu de temps à Lightning pour secourir ce monde et tenter de sauver sa sœur Serah. C'est ainsi que débute cette course contre la montre."
+    },
+
+
+    {
+      "name": "Final Fantasy XIV",
+      "annee": 2010,
+      "plateforme": "PC",
+      "ventes": "2,57 Millions",
+      "ImageUrl": "https://upload.wikimedia.org/wikipedia/fr/8/8d/Final_Fantasy_XIV_Logo.png",
+      "NumeroDeTop": "Top 16 des ventes",
+      "Description": "C’est lors de l’E3 de Los Angeles en juin 2009 que Final Fantasy XIV fut dévoilé. Totalement inattendu, c’est à la conférence de Sony que Square Enix a diffusé le premier trailer de Final Fantasy XIV devant le monde entier puisque l’évènement était retransmis en streaming."
+    },
+
+
+    {
+      "name": "Final Fantasy XV",
+      "annee": 2016,
+      "plateforme": "PlayStation 4",
+      "ventes": "8,9 Millions",
+      "ImageUrl": "https://image.jeuxvideo.com/medias-sm/148163/1481630085-8987-jaquette-avant.jpg",
+      "NumeroDeTop": "Top 4 des ventes",
+      "Description": "Final Fantasy XV est une renaissance, un phénix renaissant des cendres de Final Fantasy Versus XIII portant en son sein une extraordinaire ambition. Il est également le roi dont la tâche est de reconquérir le cœur des joueurs, récupérer le trône du J-RPG et réunir l’ancienne et la nouvelle génération de joueurs."
     }
+
   ]
 }
